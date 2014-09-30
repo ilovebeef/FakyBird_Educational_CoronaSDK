@@ -6,10 +6,10 @@
 —- All assets are being used for educational purpose only under the “Fair Educational Usage”
 -----------------------------------------------------------------------------------------
 This game demonstrate:
-	-Finite State Machine
 	-Basic canvas switching logic
 	-Scoring Logic
 	-Monster and stage generator
 	-Physics engine
+	-Physics impulse
 	-Proficient memory management
 -----------------------------------------------------------------------------------------
