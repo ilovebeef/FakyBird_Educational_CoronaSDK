@@ -73,6 +73,7 @@ function scene:createScene( event )
 			if (myObstacles[i].pBot.x <= -20) then
 				myObstacles[i].pBot.x = 460--myObTable[#myObTable].pBot.x + 120
 				myScore = myScore + 1
+				myScoreDisplay.text = ""
 				myScoreDisplay.text = "Score: "..myScore
 			end
 		end
