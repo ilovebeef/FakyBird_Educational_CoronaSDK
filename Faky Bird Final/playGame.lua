@@ -73,6 +73,7 @@ function scene:createScene( event )
 			if (myObstacles[i].pBot.x <= -20) then
 				myObstacles[i].pBot.x = 460--myObTable[#myObTable].pBot.x + 120
 				myScore = myScore + 1
+				myScoreDisplay.text = ""
 				myScoreDisplay.text = "Score: "..myScore
 			end
 		end
@@ -109,6 +110,7 @@ function scene:createScene( event )
 		group:insert (promptReplay)
 		local function replay(event)
 			if (event.phase == "began") then
+				myScoreDisplay.text = ""
 				storyboard.gotoScene ("mainMenu", {effect = "fade", time = 1000})
 			end
 		end

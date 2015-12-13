@@ -182,6 +182,7 @@ local function onUpdate (event)
 		if (myObTable[i].pBot.x <= -20) then
 			myObTable[i].pBot.x = 460--myObTable[#myObTable].pBot.x + 120
 			myScore = myScore + 1
+			myScoreDisplay.text = ""
 			myScoreDisplay.text = "Score: "..myScore
 		end
 	end
