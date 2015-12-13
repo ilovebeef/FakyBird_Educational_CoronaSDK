@@ -110,6 +110,7 @@ function scene:createScene( event )
 		group:insert (promptReplay)
 		local function replay(event)
 			if (event.phase == "began") then
+				myScoreDisplay.text = ""
 				storyboard.gotoScene ("mainMenu", {effect = "fade", time = 1000})
 			end
 		end
